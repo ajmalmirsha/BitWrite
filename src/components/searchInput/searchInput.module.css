@@ -1,0 +1,14 @@
+.inputContainer {
+  padding: 10px 5px 10px 15px;
+  background-color: var(--bg-color-grey-1);
+  border-radius: 50px;
+  height: 40px;
+  display: flex;
+}
+
+.inputContainer input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}

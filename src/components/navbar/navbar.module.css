@@ -1,0 +1,69 @@
+.container {
+  height: 100px;
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.searchContainers {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.proContainer {
+  display: flex;
+  gap: 40px;
+}
+
+.profile {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.notificationIcon {
+  cursor: pointer;
+}
+
+.searchIcon {
+  display: none;
+  cursor: pointer;
+}
+
+.toggleBtn {
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .WriteBtn {
+    display: none;
+  }
+
+  .proContainer {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .searchIcon {
+    display: flex;
+  }
+
+  .searchInput {
+    display: none;
+  }
+
+  .proContainer {
+    gap: 25px;
+  }
+}

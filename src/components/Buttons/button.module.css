@@ -1,0 +1,45 @@
+.writeBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  cursor: pointer;
+  align-items: center;
+  color: var(--text-color-2);
+}
+
+.writeBtn:hover {
+  color: var(--text-color);
+}
+
+.writeIcon {
+  color: var(--text-color-2);
+}
+
+.writeIcon:hover {
+  color: var(--text-color);
+}
+
+.toggleBtn {
+  cursor: pointer;
+  background-color: var(--text-color);
+  width: 40px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 3px;
+  border-radius: 50px;
+  position: relative;
+
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  position: absolute;
+}
+
+.dark {
+  right: 3px;
+}
